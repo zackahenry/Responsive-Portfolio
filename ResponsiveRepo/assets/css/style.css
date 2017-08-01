@@ -1,0 +1,338 @@
+
+body {
+    background-image: url(../images/golden-paper.jpg);
+}
+/* Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: black;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:hover {
+    background-color: white;
+    color: #4aaaa5;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     border: 1.3px solid;
+    border-color: silver;
+}
+
+li a:hover:not(.homeBtn) {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+p {
+    font-size: 12px;
+    color: #777777;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+.homeBtn {
+    background-color: #4aaaa5;
+}
+
+.homeBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* About Page Content */
+.aboutContent {
+    background-color: #DCDCDC;
+    width: 500px;
+    border: 1.3px solid;
+    border-color: #A9A9A9;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+.zack-1 {
+    padding: 20px;
+    height: 170px;
+    width: 170px;
+    float: left;
+    z-index: 1;
+}
+
+/* Social content master (all pages) */
+
+.socialContent {
+    background-color: #DCDCDC;
+    border: 1.3px solid;
+    border-color: #A9A9A9;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+.githubIcon {
+    height: 64px;
+    width: 64px;
+}
+
+.linkedinIcon {
+    height: 64px;
+    width: 64px;
+}
+
+.stackoverflowIcon {
+    height: 64px;
+    width: 64px;
+}
+
+/* portfolio page elements */
+
+.portfolioContainer {
+    background-color: #DCDCDC;
+    width: 600px;
+    border: 1.3px solid;
+    border-color: #A9A9A9;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+#lando1 {
+    position: relative;
+    height: 147px;
+    width: 260px;
+    background-image: url("../images/Lando.jpg");
+    background-size: contain;
+    float: left;
+    margin: 10px;
+}
+
+#lando2 {
+    position: relative;
+    height: 147px;
+    width: 260px;
+    background-image: url("../images/Lando.jpg");
+    background-size: contain;
+    float: left;
+    margin: 10px;
+}
+
+#lando3 {
+    position: relative;
+    height: 147px;
+    width: 260px;
+    background-image: url("../images/Lando.jpg");
+    background-size: contain;
+    float: left;
+    margin: 10px;
+}
+
+#lando4 {
+    position: relative;
+    height: 147px;
+    width: 260px;
+    background-image: url("../images/Lando.jpg");
+    background-size: contain;
+    float: left;
+    margin: 10px;
+}
+
+#lando5 {
+    position: relative;
+    height: 147px;
+    width: 260px;
+    background-image: url("../images/Lando.jpg");
+    background-size: contain;
+    float: left;
+    margin: 10px;
+}
+
+.landoBtn1 {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    height: 7px;
+    width: 208px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+}
+
+.landoBtn2 {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    height: 7px;
+    width: 208px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+}
+
+.landoBtn3 {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    height: 7px;
+    width: 208px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+}
+
+.landoBtn4 {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    height: 7px;
+    width: 208px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+}
+
+.landoBtn5 {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    height: 7px;
+    width: 208px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+}
+
+#lando1box {
+  position: absolute; 
+  left: -8px; 
+  top: 119px; 
+  z-index: 2;
+}
+
+#lando2box {
+  position: absolute; 
+  left: -8px; 
+  top: 119px; 
+  z-index: 2;
+}
+
+#lando3box {
+  position: absolute; 
+  left: -8px; 
+  top: 119px; 
+  z-index: 2;
+}
+
+#lando4box {
+  position: absolute; 
+  left: -8px; 
+  top: 119px; 
+  z-index: 2;
+}
+
+#lando5box {
+  position: absolute; 
+  left: -8px; 
+  top: 119px; 
+  z-index: 2;
+}
+
+/* Form Content */
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 60%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* submit button, hover change color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactContainer {
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    width: 500px;
+    border: 1.3px solid;
+    border-color: #A9A9A9;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+} 
+
+/* footer all pages*/
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  color: #777777;
+}
+
+   /*  Email Form test  */
+
+
+

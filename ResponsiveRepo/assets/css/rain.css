@@ -1,0 +1,129 @@
+
+
+/* Nav Bar all pages*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: 
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:hover {
+    background-color: white;
+    color: #4aaaa5;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4aaaa5;
+}
+
+p {
+    font-size: 12px;
+    color: #777777;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+.homeBtn {
+    background-color: #4aaaa5;
+}
+
+/*Content on Home Page*/
+body {
+  overflow: hidden;
+}
+
+@font-face {
+    font-family: mandalorimport;
+    src: url(../fonts/mandalorian/mandalor.ttf);
+}
+
+@font-face {
+    font-family: STARWARSimport;
+    src: url(../fonts/STARWARS/STARWARS.ttf);
+}
+
+
+h2 {
+  text-align: center;
+  font-family: mandalorimport;
+  font-size: 38px;
+  transition: font-family 100s;
+}
+
+h2:hover {
+  text-align: center;
+  font-family: STARWARSimport;
+}
+
+#aboutContent {
+    background-color: #DCDCDC;
+    border: 1.3px solid;
+    border-color: #A9A9A9;
+    padding: 25px;  
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 32%;
+    opacity: 1;
+}
+#aboutContent.active {
+  opacity: 1;
+  transition: opacity 5s;
+}
+.jango-1 {
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    z-index: 1;
+}
+
+.Darth-1 {
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    z-index: 1;
+}
+
+.boba-1 {
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    z-index: 1;
+}
+
+
+/*  footer all pages*/
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  color: #777777;
+}

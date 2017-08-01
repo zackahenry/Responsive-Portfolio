@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<title>My Contact</title>
+</head>
+<body>
+	<!-- Nav Bar -->
+		<ul>
+			<li><a class="homeBtn" href="home.html">Zack Henry</a></li>
+			<li style="float:right"><a href="portfolio.html">My Portfolio</a></li>
+			<li style="float:right"><a href="contact.html">Contact</a></li>
+			<li style="float:right"><a href="index.html">About Me</a></li>
+		</ul>
+
+	<!-- Contact form -->		
+	 <div class="contactContainer">
+		<form action="https://www.enformed.io/fshi7gkk" method="POST">
+
+			<label for="fname">First Name</label><br>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<br><label for="lname">Last Name</label>
+				<br><input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<!-- May Change or Delete This Part-->
+			<br><label for="country">Country</label>
+				<br><select id="country" name="country">
+				<option value="australia">Australia</option>
+				<option value="canada">Canada</option>
+				<option value="usa">USA</option>
+			</select></
+				<!--end drop down-->
+
+			<br><label for="Message">Message</label>
+				<br><textarea id="Message" name="Message" placeholder="Type Inquery Here.." style="height:200px"></textarea>
+				<br>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div> 
+
+<!-- Social buttons content -->
+	<div class="socialContent">
+		<h1>Contact Me</h1>
+			<hr>
+				<a href="https://github.com/zackahenry" target="_blank">
+					<img class="githubIcon" src="./assets/images/github-icon.png">
+				</a>
+				<a href="https://linkedin.com/in/zacharyahenry" target="_blank">
+					<img class="linkedinIcon" src="./assets/images/linkedin-icon.png">
+				</a>
+				<a href="https://stackoverflow.com" target="_blank">
+					<img class="stackoverflowIcon" src="./assets/images/stackoverflow-icon.png">
+				</a>
+	</div>
+
+	<div class="footer">&copy; Copywright Zack Henry</div>
+	<script src="./JS/email.js"></script>
+</body>
+</html>
