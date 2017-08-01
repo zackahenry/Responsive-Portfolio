@@ -332,7 +332,19 @@ input[type=submit]:hover {
   color: #777777;
 }
 
-   /*  Email Form test  */
+@media screen and (max-width: 980px) {
+    
+.
+}
 
+@media screen and (max-width: 768px) {
+
+.
+}
+
+@media screen and (max-width: 640px) {
+
+.
+}
 
 
